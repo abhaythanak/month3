@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.main {
+    width: 15%;
+    margin: 80px 80px;
+    padding: 100px 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+p{
+    position: relative;
+    top:60px ;
+    left:-60px ;
+    color: white;
+}
+.buyButton{
+    width: 100%;
+    position: relative;
+    left: -60px;
+    top: 120px;
+    
+}
+.btn{
+padding: 4px 20px;
+border-radius: 10px;
+background: rgb(19, 18, 18);
+color: red;
+border: 1px solid green;
+cursor: pointer;
+}
+.cartButton{
+    width: 100%;
+    position: relative;
+    left: 90px;
+    top: 95px;
+    
+}
+.btn1{
+    padding: 3px 7px;
+    border-radius: 10px;
+    background: rgb(19, 18, 18);
+    border: 1px solid red;
+    cursor: pointer;
+    
+}
