@@ -1,0 +1,107 @@
+.body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    background: linear-gradient(180deg, #43cea2 , #185a9d);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container {
+    padding:10px 70px 50px 70px ;
+    position: absolute;
+    background: #141e30;
+    top: 9rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 400px;
+    color: white;
+    
+}
+h1 span {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #fbbc04, #feab3a);
+    background-clip: text;
+
+    animation: colorChange 10s infinite linear;
+  }
+
+  @keyframes colorChange {
+    from {
+        -webkit-filter: hue-rotate(10deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+
+.txt {
+    background: black;
+    padding: 5px 70px;
+    border-radius: 13px;
+    color: white;
+}
+.btn {
+    background-color: red;
+    padding: 6px 25px;
+    gap: 50 px;
+    border-radius: 13px;
+    font-weight: 900;
+}
+.to-dos {
+    color: white;
+}
+.del {
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+.del:hover {
+    background: red;
+}
+.todo-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.X-delete{
+    font-weight: 900;
+    color: black;
+}
+.todo-style .X-delete {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo-style .X-delete:hover {
+    background-color: crimson;
+}
+@media (max-width: 768px) {
+    .center-div{
+        width: 55%;
+    }
+    .todo-style .X-delete {
+        margin: 0 15px 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+    button{
+        margin-left: 5px;
+        min-height: 40px;
+        width: 40px;
+        color: #fff;
+        font-size: 30px;
+    }
+}
